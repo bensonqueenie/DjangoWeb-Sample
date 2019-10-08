@@ -16,6 +16,7 @@ USER hehe
 # Set the working directory to /music_service
 WORKDIR /hellodjango
 
+
 EXPOSE 8000
 
 # Copy the current directory contents into the container at /music_service
