@@ -1,6 +1,6 @@
 # The first instruction is what image we want to base our container on
 # We Use an official Python runtime as a parent image
-FROM bastion.bensonocp.lab:5000/rhscl/python-35-rhel7
+FROM registry.access.redhat.com/rhscl/python-35-rhel7
 MAINTAINER Benson
 LABEL description="Hello World"
 
