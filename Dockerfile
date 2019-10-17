@@ -1,8 +1,7 @@
 # The first instruction is what image we want to base our container on
 # We Use an official Python runtime as a parent image
 #FROM registry.access.redhat.com/rhscl/python-35-rhel7
-# docker login registry.redhat.io
-FROM registry.redhat.io/rhscl/python-35-rhel7
+FROM bastion.bensonocp.lab:5000/rhscl/python-35-rhel7
 MAINTAINER Benson
 LABEL description="Hello World"
 
