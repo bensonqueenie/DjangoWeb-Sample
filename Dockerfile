@@ -34,7 +34,7 @@ EXPOSE 8000
 ADD . /hellodjango/
 
 # Install any needed packages specified in requirements.txt
-RUN pip install -r requirements.txt
+RUN source scl_source enable rh-python35 && pip install -r requirements.txt
 # RUN pip install -r requirements.txt --no-cache-dir
 # RUN python3 --version
 # RUN whereis python3
